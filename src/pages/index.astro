@@ -1,9 +1,15 @@
 ---
+import { getPublishedCollection } from "astro-course-university/content";
 import Card from "astro-theme-university/components/Card.astro";
 import CardGrid from "astro-theme-university/components/CardGrid.astro";
 import ContentLayout from "astro-theme-university/layouts/ContentLayout.astro";
+import { withBase } from "astro-theme-university/url";
 import { courseMeta } from "../course-config";
 import { sessionLabels, siteConfig } from "../site-config";
+
+// Read from the same collection /sessions/ renders, so this list can't say
+// something different from the actual weekly schedule.
+const sessions = (await getPublishedCollection("sessions")).sort((a, b) => a.data.week - b.data.week);
 ---
 
 <ContentLayout
@@ -45,6 +51,33 @@ import { sessionLabels, siteConfig } from "../site-config";
     generative artists, and programmers who want a semester on making
     software feel right in a stranger's hands, not just work in your own.
   </p>
+
+  <h2>Learning outcomes</h2>
+  <p>By the end of the semester, you will be able to:</p>
+  <ul>
+    <li>Build a real-time program that draws in direct response to live pointer, touch, or keyboard input.</li>
+    <li>Derive a higher-order signal — speed, dwell, acceleration — from a raw stream of input events, and use it to change what's drawn.</li>
+    <li>Choose one deliberate constraint, enforce it in code, and demonstrate the specific difference removing it makes.</li>
+    <li>Give a build internal state that keeps changing on its own over time, independent of whether anyone is providing input.</li>
+    <li>Route two or more distinct input devices through one shared code path, instead of a separate branch per device.</li>
+    <li>Use a seeded random source so the same input reliably reproduces the same output, while still varying meaningfully between seeds.</li>
+    <li>Choose and defend one deliberate failure mode as a design decision, and explain how it differs from an actual bug.</li>
+    <li>Turn a single fixed build into a small family of related outputs by exposing its internal choices as parameters.</li>
+    <li>Stage a build to run unattended for a first-time viewer, with no verbal explanation.</li>
+    <li>Give and act on peer feedback across a semester, and show a specific decision that changed as a result.</li>
+  </ul>
+
+  <h2>Twelve weeks at a glance</h2>
+  <ol>
+    {
+      sessions.map((session) => (
+        <li>
+          <a href={withBase(`/sessions/${session.id}/`)}>{session.data.title}</a>
+          {session.data.description && <> — {session.data.description}</>}
+        </li>
+      ))
+    }
+  </ol>
 
   <h2>Where to go next</h2>
   <CardGrid columns={2}>
