@@ -17,24 +17,33 @@ import { sessionLabels, siteConfig } from "../site-config";
 
   <h2>What you will do</h2>
   <p>
-    Each week you build one small interactive instrument for making marks —
-    software a hand plays like a brush, not a picture the software produces for
-    you. You'll steer a stroke with a pointer, a touch and a keyboard in turn,
-    give it one deliberate constraint, let it decay or drift on its own, and
-    watch what a real hand does with it that a screenshot never shows. Twelve
-    weeks build toward two things: an instrument built to a self-imposed
-    constraint, and a small exhibition piece that has to run for a stranger
-    with nobody there to explain it.
+    Each week you build one small drawing program, then add exactly one new
+    mechanism to it — a line that follows a pointer, then reads how fast the
+    pointer is moving, then obeys a rule you chose (say, it can never cross
+    itself), then keeps changing on its own even when nobody is touching it
+    (ink that fades unless you keep drawing), then answers to a second input
+    device through the same code path. The point of every mechanism is the
+    same: an <em>instrument</em> behaves differently depending on whose hands
+    are on it, unlike a fixed <em>artwork</em> you just show someone — and
+    everything in this course is marked as an instrument, not an artwork.
+    Twelve weeks build toward two different things: <strong>First
+    Instrument</strong>, one build judged on how well it holds to a single
+    constraint you chose, and <strong>Exhibition Piece</strong>, that same
+    build staged to run unattended in a room for a stranger, judged as a
+    whole rather than against a single rule.
   </p>
 
   <h2>Who it is for</h2>
   <p>
-    You can already write a program that responds to a mouse, a touch or a key
-    — this course does not teach programming from nothing. It's for anyone
-    curious about the gap between "the code runs" and "the thing feels right in
-    the hand": interaction designers, generative artists, and programmers who
-    want to spend a semester on the part of software that only shows up when
-    someone else's fingers are on it.
+    You should already be comfortable writing event-driven code — reading a
+    mouse, touch or keyboard event and reacting to it, on canvas or in the
+    DOM. This course does not teach that. What's new here is treating input
+    as a continuous signal rather than a one-off callback: reading speed and
+    dwell out of a stream of pointer events, keeping state that drifts on its
+    own between events, and getting the same logic to answer correctly to
+    more than one kind of input device. It's for interaction designers,
+    generative artists, and programmers who want a semester on making
+    software feel right in a stranger's hands, not just work in your own.
   </p>
 
   <h2>Where to go next</h2>
