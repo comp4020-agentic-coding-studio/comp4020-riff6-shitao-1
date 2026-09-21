@@ -31,11 +31,11 @@ one.
 
 You'll build the smallest possible thing that counts as an instrument: a
 canvas, and a line that follows wherever the pointer goes. No brush width, no
-colour, no meaning --- just the one continuous gesture that everything later
-in the semester complicates. Shitao's own treatise on painting opens the same
-way, four centuries early: before technique, before style, there is the single
-stroke, and everything a hand does afterwards is a variation on it. This
-studio is that idea, in code, on a screen that talks back.
+colour, no meaning --- just pointer position drawn straight to the screen.
+Every mechanism added in a later week (a signal read from motion, a
+constraint, a decaying state, a second input device) gets layered onto this
+same drawing loop rather than replacing it, so getting it working cleanly now
+is what makes every later week easier instead of harder.
 
 By the end, get it running well enough to hand your laptop to the person next
 to you and watch what they do with it that you didn't expect.

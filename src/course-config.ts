@@ -55,8 +55,8 @@ export const courseMeta = slopCourseMetaSchema.parse({
   startDate: "2027-02-22",
   endDate: "2027-05-28",
   description:
-    "A studio course in building small interactive instruments for gesture and " +
-    "ink: a dozen weeks, one continuous idea per week, each build tested at the " +
-    "keyboard rather than trusted from a screenshot, and defended in a crit.",
+    "A studio course in building small interactive drawing programs: software " +
+    "controlled live by a pointer, touch or keyboard, one new mechanism added " +
+    "each week, tested by handing it to someone else rather than screenshotting it.",
   tags: ["creative coding", "critique", "interaction"],
 }) satisfies CourseMetaInput;

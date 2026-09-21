@@ -1,5 +1,5 @@
 ---
-title: The method of no method
+title: "Final crit: naming the throughline"
 description:
   The final crit — exhibition pieces shown together, and the semester's
   throughline named out loud for the first time
@@ -23,15 +23,13 @@ unattended for the full studio rather than demoed piece by piece.
 ## In the studio
 
 Every instrument runs at once, in the same room, for anyone to walk between.
-Shitao's treatise ends where it began: 无法而法，乃为至法 --- the method of no
-method is the perfect method. Read badly, that sounds like an excuse to skip
-technique. Read the way twelve weeks of constraints, decay and failed
-attempts should have taught you to read it, it means the opposite: method
-worth having is the kind you can no longer see, because it's become how you
-make a mark rather than a rule you consult before making one. Say, out loud,
-what your semester's worth of constraints turned out to actually be about ---
-not what you were told to build, but what you now think an instrument for
-mark-making is for.
+Twelve weeks ago every studio added a separate, deliberate rule: this
+constraint, that decay term, this new input device. By now those rules
+should have stopped being things you consult and started being just how your
+instrument behaves --- you shouldn't need to think about the constraint from
+week 4 to keep enforcing it. Say, out loud, what your semester's worth of
+constraints turned out to actually be about --- not what you were told to
+build, but what you now think an instrument for mark-making is for.
 
 ## Afterwards
 

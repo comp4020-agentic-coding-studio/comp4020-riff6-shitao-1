@@ -1,8 +1,8 @@
 ---
-title: The single brushstroke
+title: Start with one mechanism
 description:
-  The opening lecture — why this course starts from one continuous gesture
-  instead of a list of features
+  The opening lecture — why this course builds one gesture-driven mechanism
+  at a time instead of a list of features
 week: 1
 date: 2027-02-22
 teachers:
@@ -12,13 +12,13 @@ related:
   - sessions/01-getting-started
 ---
 
-Around 1700, the painter-monk Shitao wrote a short treatise arguing that every
-technique a painter might learn --- brushwork, composition, ink tone --- grows
-out of a single idea: 一画, the single stroke. Master the stroke and method
-follows; chase a checklist of techniques without it and nothing you make will
-hold together. This course borrows that claim directly and tests it on
-software: an instrument built from one honestly-understood gesture, deepened
-week by week, beats one assembled from a dozen half-understood features.
+The claim this course runs on: one mechanism you actually understand, built
+cleanly and then deepened week by week, produces a stronger piece of software
+than several mechanisms bolted on without understanding any of them properly.
+Concretely, that means starting from the smallest working drawing loop ---
+pointer position to line on screen --- and adding exactly one new thing to it
+each week, rather than trying to build a "finished" drawing app in week 1 and
+patching features onto it afterwards.
 
 "Instrument, not artwork" is the distinction the whole semester runs on. An
 artwork is a fixed thing you show someone. An instrument is something you hand
@@ -27,7 +27,8 @@ hand is now involved. Everything this course marks is instruments.
 
 ## Outline
 
-- Shitao's 一画 and why "instrument, not artwork" is the course's actual thesis
+- why "instrument, not artwork" is the course's actual thesis: something a
+  different hand makes behave differently, not a fixed thing you show someone
 - the shape every studio and crit will follow for the rest of the semester
 - what to have running before next week: nothing more than a canvas and a line
   that follows the pointer
