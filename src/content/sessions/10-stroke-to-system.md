@@ -6,7 +6,7 @@ description:
 week: 10
 date: 2027-04-26
 teachers:
-  - idris-fenn
+  - rowan-achebe
 spec:
   - your instrument can produce more than one distinct output without you editing the code in between
   - you can show two such outputs side by side and name what stayed constant across them

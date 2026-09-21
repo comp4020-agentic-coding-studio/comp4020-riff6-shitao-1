@@ -5,7 +5,7 @@ description:
 week: 11
 date: 2027-05-03
 teachers:
-  - idris-fenn
+  - rowan-achebe
 related:
   - sessions/11-staging-the-work
 ---

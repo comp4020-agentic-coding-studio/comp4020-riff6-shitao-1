@@ -6,7 +6,7 @@ description:
 week: 9
 date: 2027-04-19
 teachers:
-  - idris-fenn
+  - rowan-achebe
 spec:
   - you can point to one specific place where your instrument fails, breaks a rule, or degrades on purpose
   - you can say what that failure is doing for the piece, and how it differs from an actual bug you've also found this semester

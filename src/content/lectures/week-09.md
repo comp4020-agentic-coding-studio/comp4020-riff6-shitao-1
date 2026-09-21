@@ -6,7 +6,7 @@ description:
 week: 9
 date: 2027-04-19
 teachers:
-  - idris-fenn
+  - rowan-achebe
 related:
   - sessions/09-failure-as-material
 ---

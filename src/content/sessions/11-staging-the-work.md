@@ -6,7 +6,7 @@ description:
 week: 11
 date: 2027-05-03
 teachers:
-  - idris-fenn
+  - rowan-achebe
 spec:
   - your instrument runs unattended for at least two minutes without crashing or needing an input you haven't documented
   - a first-time viewer can start using it with no spoken explanation from you

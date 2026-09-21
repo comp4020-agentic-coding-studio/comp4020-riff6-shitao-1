@@ -6,7 +6,7 @@ description:
 week: 7
 date: 2027-04-05
 teachers:
-  - idris-fenn
+  - rowan-achebe
 spec:
   - at least two distinct input devices (of mouse, touch, keyboard, pen) drive the same instrument through one shared code path
   - you can point at the branch in the code where the two devices would diverge, and show that it doesn't exist

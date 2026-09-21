@@ -6,7 +6,7 @@ description:
 week: 8
 date: 2027-04-12
 teachers:
-  - idris-fenn
+  - rowan-achebe
 spec:
   - given the same seed, your instrument produces the same result twice in a row
   - a hand has a control (a key, a slider, a tap) that moves to a different seed and gets a visibly different, equally deliberate result
